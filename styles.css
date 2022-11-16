@@ -144,3 +144,56 @@ body {
 .footer .link {
   color: white;
 }
+.topnav {
+  background-color: var(--primary-color);
+  overflow: hidden;
+  width: 100%;
+}
+
+.bottomnav {
+  background-color: var(--primary-color);
+  overflow: hidden;
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottomnav img {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#nav-right {
+  float: right;
+}
+
+#nav-right a {
+  font-size: xx-large;
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+.topnav #home {
+  color: #f2f2f2;
+  float: left;
+  padding-left: 1rem;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+#nav-right a {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.topnav a {
+  float: left;
+  font-family: "Fantasy";
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
